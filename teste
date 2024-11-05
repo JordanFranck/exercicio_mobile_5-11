@@ -1,0 +1,7 @@
+let ingredientes = ["leite", "açúcar", "pão", "manteiga"];
+
+console.log(ingredientes)
+
+let IndiceDoPão = ingredientes.indexOf("pão")
+
+console.log("O indice do pão é",IndiceDoPão)
