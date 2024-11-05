@@ -1,7 +1,12 @@
+//1
 let ingredientes = ["leite", "açúcar", "pão", "manteiga"];
+console.log(ingredientes);
+let IndiceDoPão = ingredientes.indexOf("pão");
+console.log("O indice do pão é",IndiceDoPão);
 
-console.log(ingredientes)
+//2
+let numeros = [5, 10, 15, 20];
+console.log (numeros);
+let numero25 = numeros.includes(25);
+console.log (numero25);
 
-let IndiceDoPão = ingredientes.indexOf("pão")
-
-console.log("O indice do pão é",IndiceDoPão)
